@@ -1,16 +1,19 @@
-﻿using Doctazer.API.Model;
-using Doctazer.API.Models;
+﻿using System;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace Doctazer.API.Data
+namespace Doctazer.API.Model
 {
-    public class DoctazerContext: DbContext
+    public partial class doctazerAPIContext : DbContext
     {
-        public DoctazerContext(DbContextOptions<DoctazerContext> options) : base(options) { }
+        public doctazerAPIContext()
+        {
+        }
+
+        public doctazerAPIContext(DbContextOptions<doctazerAPIContext> options)
+            : base(options)
+        {
+        }
 
         public virtual DbSet<Appointments> Appointments { get; set; }
         public virtual DbSet<Cities> Cities { get; set; }
@@ -21,8 +24,7 @@ namespace Doctazer.API.Data
         public virtual DbSet<Roles> Roles { get; set; }
         public virtual DbSet<Slots> Slots { get; set; }
         public virtual DbSet<Specialities> Specialities { get; set; }
-        public DbSet<Users> Users { get; set; }
-
+        public virtual DbSet<Users> Users { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -258,9 +260,5 @@ namespace Doctazer.API.Data
                     .HasDefaultValueSql("0");
             });
         }
-
     }
-
-
-    
 }
