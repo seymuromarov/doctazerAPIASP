@@ -1,5 +1,4 @@
-﻿using Doctazer.API.Model;
-using Doctazer.API.Models;
+﻿using Doctazer.API.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;

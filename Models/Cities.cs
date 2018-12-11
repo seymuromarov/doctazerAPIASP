@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Doctazer.API.Model
+namespace Doctazer.API.Models
 {
-    public partial class Specialities
+    public partial class Cities
     {
         public int Id { get; set; }
         public string Az { get; set; }

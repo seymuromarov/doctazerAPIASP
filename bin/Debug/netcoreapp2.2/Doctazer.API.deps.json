@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "bc8a01d64d3d59f4a61ae3b8145d89d550ab022d"
+    "signature": "f7dff891e3f52adeec50dd6789d312cbc369c8db"
   },
   "compilationOptions": {
     "defines": [
@@ -29,6 +29,7 @@
           "Microsoft.NETCore.App": "2.2.0",
           "Npgsql": "4.0.4",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "2.2.0",
+          "Npgsql.EntityFrameworkCore.PostgreSQL.Design": "1.1.1",
           "Pomelo.EntityFrameworkCore.MySql": "2.1.4"
         },
         "runtime": {
@@ -36,6 +37,21 @@
         },
         "compile": {
           "Doctazer.API.dll": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Relational.Design/1.1.2": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "2.2.0",
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Relational.Design.dll": {
+            "assemblyVersion": "1.1.2.0",
+            "fileVersion": "1.1.2.30427"
+          }
+        },
+        "compile": {
+          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Relational.Design.dll": {}
         }
       },
       "Microsoft.NETCore.App/2.2.0": {
@@ -251,6 +267,27 @@
         },
         "compile": {
           "lib/netstandard2.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {}
+        }
+      },
+      "Npgsql.EntityFrameworkCore.PostgreSQL.Design/1.1.1": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "2.2.0",
+          "Microsoft.EntityFrameworkCore.Relational": "2.2.0",
+          "Microsoft.EntityFrameworkCore.Relational.Design": "1.1.2",
+          "Microsoft.Extensions.DependencyInjection": "2.2.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0",
+          "NETStandard.Library": "2.0.3",
+          "Npgsql": "4.0.4",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll": {
+            "assemblyVersion": "1.1.1.0",
+            "fileVersion": "1.1.1.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard1.3/Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll": {}
         }
       },
       "Pomelo.EntityFrameworkCore.MySql/2.1.4": {
@@ -3298,6 +3335,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Microsoft.EntityFrameworkCore.Relational.Design/1.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2mf02PjAx5rTU19Np6J8MK5PhTOKsAS8BXfyikLrP3ZLrC4MUsWP5iv0qGgwmg6jDmAVReXwP9Jja5LhJq+20A==",
+      "path": "microsoft.entityframeworkcore.relational.design/1.1.2",
+      "hashPath": "microsoft.entityframeworkcore.relational.design.1.1.2.nupkg.sha512"
+    },
     "Microsoft.NETCore.App/2.2.0": {
       "type": "package",
       "serviceable": true,
@@ -3367,6 +3411,13 @@
       "sha512": "sha512-/dj1Mwsvy3IJdmep7qeyD0TdT07QOLiYBA170xbxY9bSqUawONhu5sPeRv+GxzgoEtqyX5IJqiopjVxdyiMWOg==",
       "path": "npgsql.entityframeworkcore.postgresql/2.2.0",
       "hashPath": "npgsql.entityframeworkcore.postgresql.2.2.0.nupkg.sha512"
+    },
+    "Npgsql.EntityFrameworkCore.PostgreSQL.Design/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PXdPBO/Dk8D3xatQnbx+bukGgXE2JNOf7/NUMcQyru1XVUS3ZcJvEb0RSrqsIcMdnfyu6pEMGfhl+E4KAST91w==",
+      "path": "npgsql.entityframeworkcore.postgresql.design/1.1.1",
+      "hashPath": "npgsql.entityframeworkcore.postgresql.design.1.1.1.nupkg.sha512"
     },
     "Pomelo.EntityFrameworkCore.MySql/2.1.4": {
       "type": "package",

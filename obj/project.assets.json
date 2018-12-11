@@ -1746,6 +1746,19 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
         }
       },
+      "Microsoft.EntityFrameworkCore.Relational.Design/1.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "1.1.2",
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Relational.Design.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Relational.Design.dll": {}
+        }
+      },
       "Microsoft.EntityFrameworkCore.SqlServer/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -2782,6 +2795,25 @@
         },
         "runtime": {
           "lib/netstandard2.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {}
+        }
+      },
+      "Npgsql.EntityFrameworkCore.PostgreSQL.Design/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "1.1.2",
+          "Microsoft.EntityFrameworkCore.Relational": "1.1.2",
+          "Microsoft.EntityFrameworkCore.Relational.Design": "1.1.2",
+          "Microsoft.Extensions.DependencyInjection": "1.1.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "1.1.0",
+          "NETStandard.Library": "1.6.1",
+          "Npgsql": "3.2.5",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "1.1.1"
+        },
+        "compile": {
+          "lib/netstandard1.3/Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll": {}
         }
       },
       "Pomelo.EntityFrameworkCore.MySql/2.1.4": {
@@ -6023,6 +6055,20 @@
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
+    "Microsoft.EntityFrameworkCore.Relational.Design/1.1.2": {
+      "sha512": "2mf02PjAx5rTU19Np6J8MK5PhTOKsAS8BXfyikLrP3ZLrC4MUsWP5iv0qGgwmg6jDmAVReXwP9Jja5LhJq+20A==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.relational.design/1.1.2",
+      "files": [
+        ".signature.p7s",
+        "lib/net451/Microsoft.EntityFrameworkCore.Relational.Design.dll",
+        "lib/net451/Microsoft.EntityFrameworkCore.Relational.Design.xml",
+        "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Relational.Design.dll",
+        "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Relational.Design.xml",
+        "microsoft.entityframeworkcore.relational.design.1.1.2.nupkg.sha512",
+        "microsoft.entityframeworkcore.relational.design.nuspec"
+      ]
+    },
     "Microsoft.EntityFrameworkCore.SqlServer/2.2.0": {
       "sha512": "6wGv0oqusLfjfznd9hpbkeKs5vNYJ9UDyFMj+u2cHyZZZOKcGhtANXFqS5JusDWQmYfkX3tDZSRFIr+3zdCU8Q==",
       "type": "package",
@@ -7482,6 +7528,18 @@
         "lib/netstandard2.0/Npgsql.EntityFrameworkCore.PostgreSQL.pdb",
         "npgsql.entityframeworkcore.postgresql.2.2.0.nupkg.sha512",
         "npgsql.entityframeworkcore.postgresql.nuspec"
+      ]
+    },
+    "Npgsql.EntityFrameworkCore.PostgreSQL.Design/1.1.1": {
+      "sha512": "PXdPBO/Dk8D3xatQnbx+bukGgXE2JNOf7/NUMcQyru1XVUS3ZcJvEb0RSrqsIcMdnfyu6pEMGfhl+E4KAST91w==",
+      "type": "package",
+      "path": "npgsql.entityframeworkcore.postgresql.design/1.1.1",
+      "files": [
+        ".signature.p7s",
+        "lib/net451/Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll",
+        "lib/netstandard1.3/Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll",
+        "npgsql.entityframeworkcore.postgresql.design.1.1.1.nupkg.sha512",
+        "npgsql.entityframeworkcore.postgresql.design.nuspec"
       ]
     },
     "Pomelo.EntityFrameworkCore.MySql/2.1.4": {
@@ -12235,6 +12293,7 @@
       "Microsoft.NETCore.App >= 2.2.0",
       "Npgsql >= 4.0.4",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 2.2.0",
+      "Npgsql.EntityFrameworkCore.PostgreSQL.Design >= 1.1.1",
       "Pomelo.EntityFrameworkCore.MySql >= 2.1.4"
     ]
   },
@@ -12303,6 +12362,10 @@
           "Npgsql.EntityFrameworkCore.PostgreSQL": {
             "target": "Package",
             "version": "[2.2.0, )"
+          },
+          "Npgsql.EntityFrameworkCore.PostgreSQL.Design": {
+            "target": "Package",
+            "version": "[1.1.1, )"
           },
           "Pomelo.EntityFrameworkCore.MySql": {
             "target": "Package",

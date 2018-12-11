@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Doctazer.API.Data;
+using Doctazer.API.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -13,9 +13,9 @@ namespace Doctazer.API.Controllers
     [Route("api/[controller]")]
     public class UserController : Controller
     {
-        private readonly DoctazerContext _context;
+        private readonly doctazerAPIContext _context;
 
-        public UserController(DoctazerContext context)
+        public UserController(doctazerAPIContext context)
         {
             _context = context;
         }

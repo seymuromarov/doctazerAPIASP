@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Doctazer.API.Data;
+using Doctazer.API.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -28,7 +28,7 @@ namespace Doctazer.API
         public void ConfigureServices(IServiceCollection services)
         {
             //services.AddDbContext<DoctazerContext>(options => options.UseMySql(Configuration.GetConnectionString("MysqlConnection")));
-            services.AddDbContext<DoctazerContext>(options => options.UseNpgsql(Configuration.GetConnectionString("PostgreConnection")));
+            services.AddDbContext<doctazerAPIContext>(options => options.UseNpgsql(Configuration.GetConnectionString("PostgreConnection")));
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }

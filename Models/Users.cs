@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Doctazer.API.Model
+namespace Doctazer.API.Models
 {
     public partial class Users
     {
