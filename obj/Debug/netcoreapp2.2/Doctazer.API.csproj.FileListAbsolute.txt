@@ -1,0 +1,14 @@
+C:\Users\omaro\Documents\Visual Studio 2017\Projects\Doctazer.API\Doctazer.API\bin\Debug\netcoreapp2.2\Doctazer.API.deps.json
+C:\Users\omaro\Documents\Visual Studio 2017\Projects\Doctazer.API\Doctazer.API\bin\Debug\netcoreapp2.2\Doctazer.API.runtimeconfig.json
+C:\Users\omaro\Documents\Visual Studio 2017\Projects\Doctazer.API\Doctazer.API\bin\Debug\netcoreapp2.2\Doctazer.API.runtimeconfig.dev.json
+C:\Users\omaro\Documents\Visual Studio 2017\Projects\Doctazer.API\Doctazer.API\bin\Debug\netcoreapp2.2\Doctazer.API.dll
+C:\Users\omaro\Documents\Visual Studio 2017\Projects\Doctazer.API\Doctazer.API\obj\Debug\netcoreapp2.2\Doctazer.API.csprojAssemblyReference.cache
+C:\Users\omaro\Documents\Visual Studio 2017\Projects\Doctazer.API\Doctazer.API\obj\Debug\netcoreapp2.2\Doctazer.API.csproj.CoreCompileInputs.cache
+C:\Users\omaro\Documents\Visual Studio 2017\Projects\Doctazer.API\Doctazer.API\obj\Debug\netcoreapp2.2\Doctazer.API.RazorAssemblyInfo.cache
+C:\Users\omaro\Documents\Visual Studio 2017\Projects\Doctazer.API\Doctazer.API\obj\Debug\netcoreapp2.2\Doctazer.API.RazorAssemblyInfo.cs
+C:\Users\omaro\Documents\Visual Studio 2017\Projects\Doctazer.API\Doctazer.API\obj\Debug\netcoreapp2.2\Doctazer.API.AssemblyInfoInputs.cache
+C:\Users\omaro\Documents\Visual Studio 2017\Projects\Doctazer.API\Doctazer.API\obj\Debug\netcoreapp2.2\Doctazer.API.AssemblyInfo.cs
+C:\Users\omaro\Documents\Visual Studio 2017\Projects\Doctazer.API\Doctazer.API\obj\Debug\netcoreapp2.2\Doctazer.API.RazorTargetAssemblyInfo.cache
+C:\Users\omaro\Documents\Visual Studio 2017\Projects\Doctazer.API\Doctazer.API\bin\Debug\netcoreapp2.2\Doctazer.API.pdb
+C:\Users\omaro\Documents\Visual Studio 2017\Projects\Doctazer.API\Doctazer.API\obj\Debug\netcoreapp2.2\Doctazer.API.dll
+C:\Users\omaro\Documents\Visual Studio 2017\Projects\Doctazer.API\Doctazer.API\obj\Debug\netcoreapp2.2\Doctazer.API.pdb
