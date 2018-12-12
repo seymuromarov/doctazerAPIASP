@@ -1,10 +1,12 @@
 ﻿using System;
+using Doctazer.API.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace Doctazer.API.Models
+namespace Doctazer.API.Data
 {
-    public partial class doctazerAPIContext : DbContext
+    public partial class doctazerAPIContext : IdentityDbContext
     {
         public doctazerAPIContext()
         {
@@ -37,6 +39,8 @@ namespace Doctazer.API.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
+
             modelBuilder.HasAnnotation("ProductVersion", "2.2.0-rtm-35687");
 
             modelBuilder.Entity<Appointments>(entity =>
