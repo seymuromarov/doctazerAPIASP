@@ -21,12 +21,12 @@ namespace Doctazer.API.Controllers
             _context = context;
         }
 
-        [HttpGet("{id}")]
-        public async Task<IActionResult> GetAsync(int id)
-        {
-            var user = await _context.Users.FirstOrDefaultAsync(u => u.Id == id);
-            return Ok(user);
-        }
+//        [HttpGet("{id}")]
+//        public async Task<IActionResult> GetAsync(int id)
+//        {
+//            var user = await _context.Users.FirstOrDefaultAsync(u => u.Id == id);
+//            return Ok(user);
+//        }
 
         //var mybien = await _context.Bien
         //   .Include(bien => bien.Adresse).ThenInclude(adresse => adresse.Ville)

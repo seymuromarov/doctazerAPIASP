@@ -12,5 +12,10 @@ namespace Doctazer.API.Models
         public int PatientId { get; set; }
         public int DoctorId { get; set; }
         public int? ClinicId { get; set; }
+
+        public virtual Clinics Clinic { get; set; }
+        public virtual Doctors Doctor { get; set; }
+        public virtual Patients Patient { get; set; }
+        public virtual Slots Slot { get; set; }
     }
 }

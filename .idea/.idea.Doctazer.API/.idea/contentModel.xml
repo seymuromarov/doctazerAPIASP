@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
+    <e p="C:\Users\omaro\.Rider2018.2\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\omaro\.Rider2018.2\config\scratches" t="IncludeRecursive" />
     <e p="C:\Users\omaro\.Rider2018.2\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\omaro\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_Doctazer.-1279912862.00" t="ExcludeRecursive" />
     <e p="C:\Users\omaro\Documents\Visual Studio 2017\Projects\Doctazer.API\Doctazer.API" t="IncludeRecursive">
@@ -13,24 +15,29 @@
       </e>
       <e p="Data" t="Include">
         <e p="doctazerAPIContext.cs" t="Include" />
+        <e p="Role.cs" t="Include" />
       </e>
       <e p="Doctazer.API.csproj" t="IncludeRecursive" />
-      <e p="Migrations" t="Include">
-        <e p="20181212180113_InitialCreate.cs" t="Include" />
-        <e p="20181212180113_InitialCreate.Designer.cs" t="Include" />
-        <e p="doctazerAPIContextModelSnapshot.cs" t="Include" />
-      </e>
       <e p="Models" t="Include">
+        <e p="Addresses.cs" t="Include" />
         <e p="Appointments.cs" t="Include" />
+        <e p="AspNetRoleClaims.cs" t="Include" />
+        <e p="AspNetRoles.cs" t="Include" />
+        <e p="AspNetUserClaims.cs" t="Include" />
+        <e p="AspNetUserLogins.cs" t="Include" />
+        <e p="AspNetUserRoles.cs" t="Include" />
+        <e p="AspNetUsers.cs" t="Include" />
+        <e p="AspNetUserTokens.cs" t="Include" />
         <e p="Cities.cs" t="Include" />
         <e p="ClinicDoctors.cs" t="Include" />
         <e p="Clinics.cs" t="Include" />
         <e p="Doctors.cs" t="Include" />
+        <e p="Favorites.cs" t="Include" />
+        <e p="PatientAttemps.cs" t="Include" />
         <e p="Patients.cs" t="Include" />
-        <e p="Roles.cs" t="Include" />
+        <e p="Reasons.cs" t="Include" />
         <e p="Slots.cs" t="Include" />
         <e p="Specialities.cs" t="Include" />
-        <e p="Users.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
